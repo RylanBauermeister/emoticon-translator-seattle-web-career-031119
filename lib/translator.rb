@@ -8,7 +8,7 @@ def load_library(path)
   }
   
   emoji.each do |definition, faces|
-    dictionary["get_meaning"][faces[1]] = {}
+    dictionary["get_meaning"][faces[1]] = definition
   end
   dictionary
 end
