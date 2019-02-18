@@ -7,7 +7,8 @@ def load_library(path)
     "get_emoticon" => {}
   }
   
-  emoji.each do |
+  emoji.each do |definition, faces|
+    
   
 end
 
