@@ -1,4 +1,4 @@
-# require modules here
+require 'yaml'
 
 def load_library(path)
   YAML.load_file(path)
