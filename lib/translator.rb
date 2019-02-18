@@ -1,11 +1,14 @@
 require 'yaml'
 
 def load_library(path)
-  YAML.load_file(path)
+  emoji = YAML.load_file(path)
   dictionary = {
     "get_meaning" => {},
     "get_emoticon" => {}
   }
+  
+  emoji.each do |
+  
 end
 
 def get_japanese_emoticon
