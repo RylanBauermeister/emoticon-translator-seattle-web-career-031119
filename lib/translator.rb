@@ -27,5 +27,5 @@ def get_english_meaning(path, emoticon)
   if !dictionary["get_meaning"][emoticon]
     return "Sorry, that emoticon was not found"
   end
-  dictionary["get_emoticon"][emoticon]
+  dictionary["get_meaning"][emoticon]
 end
